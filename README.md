@@ -2,10 +2,6 @@
 The Asset Administration Shell (AAS) is the digital representation of an asset. The AAS consists of a number of submodels in which all the information and functionalities of a given asset – including its features, characteristics, properties, statuses, parameters, measurement data and capabilities – can be described. It allows for the use of different communication channels and applications and serves as the link between objects and the connected, digital and distributed world.
 The structure of the AAS is defined via a technology independent metamodel and several technology specific serialization mappings such as XML, JSON or OPC UA. Its contents are defined via domain-specific submodel templates. [Details of the Asset Administration Shell](references/Details_of_the_Asset_Administration_Shell_Part1_V3.pdf).
 
-## AASX Server
-[AASX Server](https://github.com/admin-shell-io/aasx-server) serves Industrie 4.0 AASX packages accessible by REST, OPC UA and MQTT protocols.  
-Industrial Digital Twin Association (IDTA) provides an example AASX Server at https://admin-shell-io.com/5001. 
-
 ## AASX Package Explorer
 The AASX Server is based on code of [AASX Package Explorer](https://github.com/admin-shell-io/aasx-package-explorer).  
 AASX Package Explorer [Tutorial](https://www.youtube.com/@csuyux/videos).  
@@ -23,3 +19,7 @@ ECLASS is a cross-industry master-data business standard for products and servic
 
 - [Servo DC Motor](examples/Example_AAS_ServoDCMotor_21.png)
 - [Pressure Sensor](examples/Wika_PSD4.png)
+
+## AASX Server
+[AASX Server](https://github.com/admin-shell-io/aasx-server) serves Industrie 4.0 AASX packages accessible by REST, OPC UA and MQTT protocols.  
+Industrial Digital Twin Association (IDTA) provides an example AASX Server at https://admin-shell-io.com/5001. 
