@@ -1,0 +1,1136 @@
+{
+  "assetAdministrationShells": [
+    {
+      "hasDataSpecification": [],
+      "asset": {
+        "keys": [
+          {
+            "type": "Asset",
+            "local": true,
+            "value": "https://example.com/ids/asset/8150_9101_5032_6839",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "submodels": [
+        {
+          "keys": [
+            {
+              "type": "Submodel",
+              "local": true,
+              "value": "https://example.com/ids/sm/2421_5111_5032_3768",
+              "index": 0,
+              "idType": "IRI"
+            }
+          ]
+        },
+        {
+          "keys": [
+            {
+              "type": "Submodel",
+              "local": true,
+              "value": "https://example.com/ids/sm/8221_5111_5032_5718",
+              "index": 0,
+              "idType": "IRI"
+            }
+          ]
+        },
+        {
+          "keys": [
+            {
+              "type": "Submodel",
+              "local": true,
+              "value": "https://example.com/ids/sm/3311_5111_5032_7639",
+              "index": 0,
+              "idType": "IRI"
+            }
+          ]
+        }
+      ],
+      "conceptDictionaries": [],
+      "identification": {
+        "idType": "IRI",
+        "id": "https://example.com/ids/ass/0330_9101_5032_3395"
+      },
+      "idShort": "Wika_PSD4_1",
+      "modelType": {
+        "name": "AssetAdministrationShell"
+      }
+    }
+  ],
+  "assets": [
+    {
+      "hasDataSpecification": [],
+      "identification": {
+        "idType": "IRI",
+        "id": "https://example.com/ids/asset/8150_9101_5032_6839"
+      },
+      "idShort": "Wika_PSD4",
+      "modelType": {
+        "name": "Asset"
+      },
+      "kind": "Instance"
+    }
+  ],
+  "submodels": [
+    {
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "local": false,
+            "value": "https://www.hsu-hh.de/aut/aas/identification",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "qualifiers": [],
+      "hasDataSpecification": [],
+      "identification": {
+        "idType": "IRI",
+        "id": "https://example.com/ids/sm/2421_5111_5032_3768"
+      },
+      "idShort": "Identification",
+      "modelType": {
+        "name": "Submodel"
+      },
+      "kind": "Instance",
+      "submodelElements": [
+        {
+          "value": "WIKA",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAO677#002",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ManufacturerName",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "PSD-4",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAW338#001",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ManufacturerProductDesignation",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "Electronic pressure switch",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAU734#001",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "ManufacturerProductDescription",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "1A010BPEU2K",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAM556#002",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "SerialNumber",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "https://www.wika.com/en-us/psd_4.WIKA",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-AAO694#001",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "URL",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "anyURI"
+            }
+          },
+          "kind": "Instance"
+        }
+      ]
+    },
+    {
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "local": false,
+            "value": "0173-1#01-AFZ615#016",
+            "index": 0,
+            "idType": "IRDI"
+          }
+        ]
+      },
+      "qualifiers": [],
+      "hasDataSpecification": [],
+      "identification": {
+        "idType": "IRI",
+        "id": "https://example.com/ids/sm/8221_5111_5032_5718"
+      },
+      "idShort": "TechnicalData",
+      "category": "CONSTANT",
+      "modelType": {
+        "name": "Submodel"
+      },
+      "kind": "Instance",
+      "submodelElements": [
+        {
+          "value": "4.00",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-BAE098#004",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "MinCurrent",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "float"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "20.00",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "0173-1#02-BAE098#004",
+                "index": 0,
+                "idType": "IRDI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "MaxCurrent",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "float"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "0.00",
+          "valueId": {
+            "keys": []
+          },
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://example.com/ids/cd/7515_5111_5032_7713",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [
+            {
+              "dataSpecification": {
+                "keys": []
+              }
+            }
+          ],
+          "idShort": "MinPressure",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "float"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": []
+        },
+        {
+          "value": "2.50",
+          "valueId": {
+            "keys": []
+          },
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://example.com/ids/cd/7515_5111_5032_7713",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [
+            {
+              "dataSpecification": {
+                "keys": []
+              }
+            }
+          ],
+          "idShort": "MaxPressure",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "float"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": []
+        },
+        {
+          "value": "00.00",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://example.com/ids/cd/0561_7111_5032_9080",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "MinPercentage",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "float"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "100.00",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://example.com/ids/cd/0561_7111_5032_9080",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "MaxPercentage",
+          "category": "PARAMETER",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "float"
+            }
+          },
+          "kind": "Instance"
+        }
+      ]
+    },
+    {
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "local": false,
+            "value": "0173-1#01-AFZ615#016",
+            "index": 0,
+            "idType": "IRDI"
+          }
+        ]
+      },
+      "qualifiers": [],
+      "hasDataSpecification": [],
+      "identification": {
+        "idType": "IRI",
+        "id": "https://example.com/ids/sm/3311_5111_5032_7639"
+      },
+      "idShort": "OperationalData",
+      "category": "VARIABLE",
+      "modelType": {
+        "name": "Submodel"
+      },
+      "kind": "Instance",
+      "submodelElements": [
+        {
+          "value": "12.00",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://example.com/ids/cd/0275_6111_5032_0519",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Current",
+          "category": "VARIABLE",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "integer"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "1.25",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://example.com/ids/cd/5075_6111_5032_4626",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Pressure",
+          "category": "VARIABLE",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "float"
+            }
+          },
+          "kind": "Instance"
+        },
+        {
+          "value": "50.00",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "ConceptDescription",
+                "local": true,
+                "value": "https://example.com/ids/cd/1535_6111_5032_5872",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Percentage",
+          "category": "VARIABLE",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "float"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": []
+        }
+      ]
+    }
+  ],
+  "conceptDescriptions": [
+    {
+      "identification": {
+        "idType": "IRDI",
+        "id": "0173-1#02-AAO677#002"
+      },
+      "idShort": "ManufacturerName",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": []
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "DE",
+                "text": "Herstellername"
+              },
+              {
+                "language": "EN",
+                "text": "Manufacturer Name"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN?",
+                "text": "Manufacturer Name"
+              }
+            ],
+            "unit": "",
+            "dataType": "",
+            "definition": [
+              {
+                "language": "DE",
+                "text": "Bezeichnung für eine natürliche oder juristische Person, die für die Auslegung, Herstellung und Verpackung sowie die Etikettierung eines Produkts im Hinblick auf das 'Inverkehrbringen' im eigenen Namen verantwortlich ist"
+              },
+              {
+                "language": "EN",
+                "text": "legally valid designation of the natural or judicial person which is directly responsible for the design, production, packaging and labeling of a product in respect to its being brought into circulation"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRDI",
+        "id": "0173-1#02-AAU734#001"
+      },
+      "idShort": "ManufacturerProductDescription",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": []
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "EN",
+                "text": "Manufacturer product description"
+              },
+              {
+                "language": "DE",
+                "text": "Herstellerproduktbeschreibung"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN?",
+                "text": "Manufacturer product description"
+              }
+            ],
+            "unit": "",
+            "dataType": "",
+            "definition": [
+              {
+                "language": "DE",
+                "text": "Beschreibung des Produktes, seiner technischen Eigenschaften und ggf. seiner Anwendung (Langtext)"
+              },
+              {
+                "language": "EN",
+                "text": "Description of the product, it's technical features and implementation if needed (long text)"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRDI",
+        "id": "0173-1#02-AAM556#002"
+      },
+      "idShort": "SerialNumber",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": []
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "EN",
+                "text": "Serial number"
+              },
+              {
+                "language": "DE",
+                "text": "Seriennummer"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN?",
+                "text": "InstanceId"
+              }
+            ],
+            "unit": "",
+            "dataType": "",
+            "definition": [
+              {
+                "language": "DE",
+                "text": "eindeutige Zahlen- und Buchstabenkombination mit der das Gerät nach seiner Herstellung identifiziert ist"
+              },
+              {
+                "language": "EN",
+                "text": "unique combination of numbers and letters used to identify the device once it has been manufactured"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRDI",
+        "id": "0173-1#02-AAO694#001"
+      },
+      "idShort": "URL",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": []
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "DE",
+                "text": "Internetadresse"
+              },
+              {
+                "language": "EN",
+                "text": "Internet address"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN?",
+                "text": "URL"
+              }
+            ],
+            "unit": "",
+            "dataType": "",
+            "definition": [
+              {
+                "language": "EN",
+                "text": "stated as link to a home page. The home page is the starting page or table of contents of a web site with offerings. It usually has the name index.htm or index.html"
+              },
+              {
+                "language": "DE",
+                "text": "Angabe als Link, um in eine Homepage zu gelangen. die Homepage ist die Start- beziehungsweise die Inhaltsseite eines Web-Angebots. Meistens trägt sie den Namen index.htm oder index.html"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRDI",
+        "id": "0173-1#02-BAE098#004"
+      },
+      "idShort": "MinCurrent",
+      "category": "PROPERTY",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": []
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "EN",
+                "text": "Min. current"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN?",
+                "text": "MinCurrent"
+              }
+            ],
+            "unit": "mA",
+            "unitId": {
+              "keys": [
+                {
+                  "type": "GlobalReference",
+                  "local": false,
+                  "value": "0173-1#05-AAA212#003",
+                  "index": 0,
+                  "idType": "IRDI"
+                }
+              ]
+            },
+            "dataType": "REAL_MEASURE",
+            "definition": []
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://example.com/ids/cd/7515_5111_5032_7713"
+      },
+      "idShort": "MinPressure",
+      "category": "PARAMETER",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [],
+            "shortName": [
+              {
+                "language": "EN?",
+                "text": "MinPressure"
+              }
+            ],
+            "unit": "bar",
+            "dataType": "REAL_MEASURE",
+            "definition": []
+          }
+        }
+      ],
+      "isCaseOf": [],
+      "descriptions": [
+        {
+          "language": "en",
+          "text": "Pipe pressure"
+        }
+      ]
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://example.com/ids/cd/3475_6111_5032_0349"
+      },
+      "administration": {
+        "version": "",
+        "revision": "2"
+      },
+      "idShort": "MaxPercentage",
+      "category": "PROPERTY",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": []
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "en",
+                "text": "Max. percentage"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN?",
+                "text": "MaxPercentage"
+              }
+            ],
+            "unit": "%",
+            "unitId": {
+              "keys": [
+                {
+                  "type": "GlobalReference",
+                  "local": false,
+                  "value": "0173-1#05-AAA650#002",
+                  "index": 0,
+                  "idType": "IRDI"
+                }
+              ]
+            },
+            "dataType": "INTEGER_MEASURE",
+            "definition": [
+              {
+                "language": "de",
+                "text": "Höchste zulässige Drehzahl, mit welcher der Motor oder die Speiseinheit betrieben werden darf"
+              },
+              {
+                "language": "en",
+                "text": "Greatest permissible rotation speed with which the motor or feeding unit may be operated"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": [
+        {
+          "keys": []
+        }
+      ]
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://example.com/ids/cd/0275_6111_5032_0519"
+      },
+      "idShort": "Current",
+      "category": "PROPERTY",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "EN",
+                "text": "Current"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN?",
+                "text": "Current"
+              }
+            ],
+            "unit": "mA",
+            "unitId": {
+              "keys": [
+                {
+                  "type": "GlobalReference",
+                  "local": false,
+                  "value": "0173-1#05-AAA650#002",
+                  "index": 0,
+                  "idType": "IRDI"
+                }
+              ]
+            },
+            "dataType": "INTEGER_MEASURE",
+            "definition": []
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://example.com/ids/cd/5075_6111_5032_4626"
+      },
+      "idShort": "Pressure",
+      "category": "PROPERTY",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [],
+            "shortName": [
+              {
+                "language": "EN?",
+                "text": "Pressure"
+              }
+            ],
+            "unit": "bar",
+            "unitId": {
+              "keys": []
+            },
+            "dataType": "REAL_MEASURE",
+            "definition": [
+              {
+                "language": "EN",
+                "text": "Actual mechanical torque which the motor passes on at the drive shaft"
+              },
+              {
+                "language": "DE",
+                "text": "Atkuelles Drehmoment, welches der Motor an der Abtriebswelle abgibt"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://example.com/ids/cd/1535_6111_5032_5872"
+      },
+      "administration": {
+        "version": "",
+        "revision": ""
+      },
+      "idShort": "Percentage",
+      "category": "PARAMETER",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [],
+            "shortName": [
+              {
+                "language": "en",
+                "text": "Percentage"
+              }
+            ],
+            "unit": "%",
+            "dataType": "",
+            "definition": []
+          }
+        }
+      ],
+      "isCaseOf": [],
+      "descriptions": []
+    },
+    {
+      "identification": {
+        "idType": "IRDI",
+        "id": "0173-1#02-AAW338#001"
+      },
+      "idShort": "ManufacturerProductDesignation",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": []
+          },
+          "dataSpecificationContent": {
+            "preferredName": [
+              {
+                "language": "EN",
+                "text": "Manufacturer product designation"
+              }
+            ],
+            "shortName": [
+              {
+                "language": "EN?",
+                "text": "ManufacturerTypName"
+              }
+            ],
+            "unit": "",
+            "dataType": "STRING_TRANSLATABLE",
+            "definition": [
+              {
+                "language": "EN",
+                "text": "Electronic pressure switch"
+              }
+            ]
+          }
+        }
+      ],
+      "isCaseOf": []
+    },
+    {
+      "identification": {
+        "idType": "IRI",
+        "id": "https://example.com/ids/cd/0561_7111_5032_9080"
+      },
+      "idShort": "MaxPercentage",
+      "category": "PARAMETER",
+      "modelType": {
+        "name": "ConceptDescription"
+      },
+      "embeddedDataSpecifications": [
+        {
+          "dataSpecification": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "http://admin-shell.io/DataSpecificationTemplates/DataSpecificationIEC61360/2/0",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "dataSpecificationContent": {
+            "preferredName": [],
+            "shortName": [
+              {
+                "language": "EN?",
+                "text": "MaxPercentage"
+              }
+            ],
+            "unit": "%",
+            "dataType": "",
+            "definition": []
+          }
+        }
+      ],
+      "isCaseOf": []
+    }
+  ]
+}
